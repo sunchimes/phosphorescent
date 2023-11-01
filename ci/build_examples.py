@@ -13,12 +13,9 @@ filter_dirs = ["libDaisy",
                ".vscode",
                ".git",
                "ci",
-               "cube",
-               "dist",
-               "utils",
                "stmlib",
                "libdaisy",
-               "MyProjects"]
+               "src"]
 
 dirs_to_search = list(
     filter(lambda x: x not in filter_dirs and os.path.isdir(x), os.listdir('.')))

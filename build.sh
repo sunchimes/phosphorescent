@@ -2,4 +2,4 @@
 
 ./ci/build_libs.sh
 
-echo "Finished."
+echo "finished"
