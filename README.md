@@ -1,4 +1,4 @@
-# Phosphorescent
+# 🔆 Phosphorescent
 A shimmery arpeggiator for the Electro-Smith Daisy Seed written in C++ ~
 
 <p>
@@ -7,7 +7,7 @@ A shimmery arpeggiator for the Electro-Smith Daisy Seed written in C++ ~
     </a>
 </p>
 
-## Setup
+## 🔆 Setup
 
 1. Clone repo with submodules
 `$ git clone --recursive git@github.com:sunchimes/phosphorescent.git`
@@ -19,7 +19,7 @@ Optional: Update submodules if out of date
 `$ git submodule update --init --recursive`
 
 
-## Develop
+## 🔆 Develop
 
 1. From the working directory:
 `$ cd src/arp/`
@@ -30,7 +30,7 @@ Optional: Update submodules if out of date
 `$ make clean; make; make program-dfu``
 
 
-## Updating the Submodules
+## 🔆 Updating the Submodules
 
 To pull everything for the repo and submodules:
 `$ git pull --recurse-submodules`
