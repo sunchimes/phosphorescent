@@ -27,7 +27,7 @@ Optional: Update submodules if out of date
 2. Reset the Daisy: on the Daisy Seed, hold down BOOT and then press RESET. 
 
 3. Build the program and flash it onto the Daisy Seed:
-`$ make clean; make; make program-dfu``
+`$ make clean; make; make program-dfu`
 
 
 ## 🔆 Updating the Submodules
@@ -39,3 +39,9 @@ To only pull changes for the submodules:
 `$ git submodule update --remote`
 
 Whenever there are changes to the libraries (whether from pulling from git or manually editing the libraries) they will need to be rebuilt. This can be done by either running `./ci/build_libs.sh` or entering the directory of the library with changes and running `make`.
+
+## 🔆 Support our Project
+
+[Support our work](https://opencollective.com/diy-synth-collective) by backing, sponsoring, or contributing a one-time donation on our OpenCollective! 
+
+Made with love with the [DIY Synth Collective](https://diysynthcollective.mmm.page/) <3 
