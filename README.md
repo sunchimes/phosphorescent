@@ -15,7 +15,7 @@ A shimmery arpeggiator for the Electro-Smith Daisy Seed written in C++ ~
 2. Build libraries and compile source
 `$ ./build.sh`
 
-Optional: Update submodules if out of date
+3. Optional: Update submodules if out of date
 `$ git submodule update --init --recursive`
 
 
