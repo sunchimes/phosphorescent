@@ -1,6 +1,12 @@
 # Phosphorescent
 A shimmery arpeggiator for the Electro-Smith Daisy Seed written in C++ ~
 
+<p>
+    <a href="https://opensource.org/licenses/MIT">
+      <img src="https://img.shields.io/badge/license-MIT-brightgreen">
+    </a>
+</p>
+
 ## Setup
 
 1. Clone repo with submodules
