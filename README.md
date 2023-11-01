@@ -24,7 +24,7 @@ Optional: Update submodules if out of date
 1. From the working directory:
 `$ cd src/arp/`
 
-2. Reset the Dais      . On the Daisy, hold down BOOT and then press RESET. 
+2. Reset the Daisy: on the Daisy Seed, hold down BOOT and then press RESET. 
 
 3. Build the program and flash it onto the Daisy Seed:
 `$ make clean; make; make program-dfu``
@@ -39,5 +39,3 @@ To only pull changes for the submodules:
 `$ git submodule update --remote`
 
 Whenever there are changes to the libraries (whether from pulling from git or manually editing the libraries) they will need to be rebuilt. This can be done by either running `./ci/build_libs.sh` or entering the directory of the library with changes and running `make`.
-
-
