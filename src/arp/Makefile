@@ -1,8 +1,8 @@
 # Project Name
-TARGET = button
+TARGET = arp
 
 # Sources
-CPP_SOURCES = button.cpp
+CPP_SOURCES = arp.cpp button.cpp
 
 # Library Locations
 LIBDAISY_DIR = ../../libDaisy
