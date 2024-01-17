@@ -24,6 +24,6 @@ class Button
 
 };
 
-// static std::vector<Button::Button> buttons;
+static std::vector<Button::Button> buttons;
 
 #endif

@@ -12,3 +12,7 @@ Button::Button(daisy::Switch hwButton, std::string pitchName, float frequency, b
     , isHeld{ isHeld }
 {
 }
+
+static std::vector<Button::Button> buttons = {
+    // TODO: Create buttons
+}
