@@ -2,6 +2,7 @@
 #include "daisysp.h"
 
 #include <vector>
+#include <map>
 
 // Use the daisy namespace to prevent having to type
 // daisy:: before all libdaisy functions
@@ -26,7 +27,7 @@ enum buttons {
 
 }
  
- */
+*/
 
 static std::vector<float> pitches = {
     466.164,
@@ -57,7 +58,7 @@ enum arpModes {
     DOWN,
     RANDOM,
     ORDER
-}
+};
 
 // Map buttons to pitches
 // TODO: Replace pitches with enum names
@@ -67,8 +68,7 @@ std::map<Switch, int> BUTTONS_TO_PITCHES = {
     { button3,  369.994 },
     { button4,  311.127 },
     { button5,  277.183 },
-}
-
+};
 
 // TODO: Use hardware to set these globals
 static float arpMode = UP; // ms 
@@ -77,8 +77,8 @@ static float arpSpeed = 1000; // ms
 static int counter = 0;
 static size_t currentPitchIndex = 0;
 
-static std::vector<Switch> buttonsHeld = {}
-static std::vector<float> pitchesToPlay = {}
+static std::vector<Switch> buttonsHeld = {};
+static std::vector<float> pitchesToPlay = {};
 
 void AudioCallback(AudioHandle::InterleavingInputBuffer  in,
         AudioHandle::InterleavingOutputBuffer out,
@@ -87,7 +87,7 @@ void AudioCallback(AudioHandle::InterleavingInputBuffer  in,
     float oscOut, envOut;
     
     // Reset buttons held
-    buttonsHeld = {}
+    buttonsHeld = {};
 
     // Find current buttons held
     for (size_t i = 0; i < BUTTONS_TO_PITCHES.size(); i++) {
